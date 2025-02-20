@@ -1,0 +1,57 @@
+{
+  "backend": {
+    "flavor": "deno",
+    "path": "./backend"
+  },
+  "productName": "Deno App",
+  "identifier": "dev.crabnebula.denoapp",
+  "version": "0.1.0",
+  "cloudOrgSlug": "crabnebula",
+  "cloudAppSlug": "taurify",
+  "app": {
+    "icon": "../icon.svg",
+    "windows": [
+      {
+        "title": "Taurify",
+        "width": 800,
+        "height": 600
+      }
+    ]
+  },
+  "android": {
+    "targets": [
+      {
+        "bundle": "aab"
+      }
+    ]
+  },
+  "iOS": {
+    "targets": [
+      {
+        "bundle": "app-store-connect"
+      }
+    ]
+  },
+  "windows": {
+    "targets": [
+      {
+        "bundle": "nsis"
+      }
+    ]
+  },
+  "macOS": {
+    "targets": [
+      {
+        "bundle": "dmg"
+      }
+    ],
+    "arch": "arm64"
+  },
+  "linux": {
+    "targets": [
+      {
+        "bundle": "appimage"
+      }
+    ]
+  }
+}
