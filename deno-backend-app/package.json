@@ -9,11 +9,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@crabnebula/taurify-api": "^1.0.1"
+    "@crabnebula/taurify-api": "^1.1.0"
   },
   "devDependencies": {
-    "taurify": "^1.0.2",
+    "taurify": "^1.2.7",
     "typescript": "^5.6.3",
-    "vite": "^5.4.13"
+    "vite": "^8.2.2"
   }
 }
